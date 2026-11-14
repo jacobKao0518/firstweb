@@ -1,1 +1,145 @@
-我的期中網頁
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>個人履歷 - 高士傑</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#info">基本資訊</a></li>
+                <li><a href="#skills">專業與技能</a></li>
+                <li><a href="#experience">個人經歷</a></li>
+                <li><a href="#contact">聯絡資訊</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="info">
+        <div class="container">
+            <h1>高士傑</h1>
+            <h2>中原大學 資訊管理學系</h2>
+            <p class="slogan">「持續做對的事就會有好的結果」</p>
+            <div class="info-content">
+                <img src="image/profile.jpg" alt="個人照片" class="profile-img">
+                <div class="intro">
+                    <h3>關於我</h3>
+                    <p>個性：樂觀、開朗。<br>
+                       個人特質：具備良好的邏輯思維能力與團隊合作精神。<br>
+                       興趣：各項球類運動、看F1賽車。<br>
+                       優缺點：解決問題能力佳，但在陌生場合較為內斂、謹慎。<br>
+                       <a href="https://github.com/jacobKao0518" target="_blank" class="github-btn">我的 GitHub</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2><img src="image/icon1.png" class="title-icon" alt="技能"> 專業與技能</h2>
+            
+            <div class="skill-list">
+                <div class="skill-item">
+                    <div class="circle-progress" style="--percentage: 85%;">
+                        <span class="percent-text">85%</span>
+                    </div>
+                    <span class="skill-name">Python 程式開發</span>
+                </div>
+
+                <div class="skill-item">
+                    <div class="circle-progress" style="--percentage: 90%;">
+                        <span class="percent-text">90%</span>
+                    </div>
+                    <span class="skill-name">JAVA 程式開發</span>
+                </div>
+
+                <div class="skill-item">
+                    <div class="circle-progress" style="--percentage: 80%;">
+                        <span class="percent-text">80%</span>
+                    </div>
+                    <span class="skill-name">網頁前端開發(CSS/HTML)</span>
+                </div>
+
+                <div class="skill-item">
+                    <div class="circle-progress" style="--percentage: 75%;">
+                        <span class="percent-text">75%</span>
+                    </div>
+                    <span class="skill-name">英文能力</span>
+                </div>
+
+                <div class="skill-item">
+                    <div class="circle-progress" style="--percentage: 100%;">
+                        <span class="percent-text">100%</span>
+                    </div>
+                    <span class="skill-name">中文能力</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        
+        <div class="container">
+            <h2><img src="image/icon2.png" class="title-icon" alt="經歷">個人經歷</h2>
+            
+            <article class="exp-item">
+                <h3>企業概論 - 桃園一日遊行程規劃專案</h3>
+                <p class="time">大一上</p>
+                <p class="desc">
+                    在此專案中，我與同學共同創立了「拾途旅行」學生專案小組。我扮演核心企劃與實地考察的角色，親自前往桃園忠貞新村、異域故事館等地進行市場調查與場勘。在過程中，我學習到了如何撰寫新聞稿與完整的商業企劃書，並成功整合在地文化與商業模式，提升了我的專案統籌與實務執行能力。
+                </p>
+                <div class="evidence-gallery">
+                    <a href="https://canva.link/6ysuri8zszon7wz" target="_blank" class="evidence-link">查看完整書面報告</a>
+                </div>
+            </article>
+
+            <article class="exp-item">
+                <h3>新生盃籃球賽</h3>
+                <p class="time">大一上</p>
+                <p class="desc">
+                在新生盃籃球賽中，我與系上同學組成隊伍，利用課餘時間進行密集的戰術演練與體能訓練。與隊友建立深厚的團隊默契。雖然最終我們在八強賽中遭遇強敵惜敗，未能順利晉級，但這次經驗讓我深刻體會到團隊溝通與抗壓性的重要。我學到在面對落後或高壓情況下，如何快速調整心態並與團隊共同解決問題，這些寶貴的合作經驗，將是我未來人生的助力。
+                </p>
+                <div class="evidence-gallery">
+                    <video class="evidence-video" controls>
+                        <source src="video/expvideo1.mp4" type="video/mp4">你的瀏覽器不支援 HTML5 影片播放。
+                    </video>
+                </div>
+            </article>
+
+            <article class="exp-item">
+                <h3>管理學 - 新中北路打掃志工</h3>
+                <p class="time">大一下</p>
+                <p class="desc">
+                    落實『力行』宿舍的精神，從自己生活的小地方做起。看到新中北路上菸蒂較多，我們希望讓這條陪伴我們大學生活的街道恢復整潔，所以以力行學生的身分，針對宿舍前新中北路人行道進行整潔維護，透過清除菸蒂與垃圾，主動提升校園周邊的步行環境品質。
+                </p>
+                <div class="evidence-gallery">
+                    <div class="evidence-images">
+                        <img src="image/expphoto1.jpg" alt="打掃志工照片1" class="evidence-img">
+                        <img src="image/expphoto2.jpg" alt="打掃志工照片2" class="evidence-img">
+                    </div>
+                    <a href="https://canva.link/n8if4doee2d2v06" target="_blank" class="evidence-link">查看完整書面報告</a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <h2>聯絡資訊</h2>
+            <p>歡迎透過以下方式與我聯繫：</p>
+            <div class="social-links">
+                <a href="mailto:shig08400@gmail.com">Email 發信</a>
+                <a href="https://reurl.cc/Ym2edX" target="_blank">Instagram</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
